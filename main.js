@@ -64,6 +64,11 @@ ScrollReveal().reveal(".about__card", {
   delay: 1500,
   interval: 500,
 });
+// Toggle options menu
+document.querySelector('.profile-options').addEventListener('click', () => {
+  alert("Options menu coming soon!");
+});
+
 
 // price container
 ScrollReveal().reveal(".price__card", {
